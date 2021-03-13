@@ -1,16 +1,16 @@
 
-<div class="first-screen">
-  <div >
-    <div >
-		<img src="./assets/images/logo.png" alt="Logo" class="logo">
-      <h1 >Popular Glass printers</h1>
-      <p >
-		A brand in glass printing.
-	  </p>
-	  <p>
-		Situated in the heart of Mumbai
-	  </p>
+<div class="flex-container flex-background">
+  <div class="flex-container2">
+    <div class="flex-container">
+      <h1 class="title" >Popular Glass printers</h1>
+      <div class="subtitle">A brand in glass bottle printing.</div>
+      <div class="subtitle">Situated in the heart of Mumbai</div>
     </div>
+      
+    <div class="logo">
+      <img src="./assets/images/logo.png" alt="Logo" class="logo">
+    </div>
+      
   </div>
 </div>
 <div class="container">
@@ -21,7 +21,7 @@
     </carousel>
   </div>
 
-  <h3>3 cells to show</h3>
+  <h3>Distilling Colors and Frosting</h3>
   <div class="row">
     <carousel [cellsToShow]="3" [images]="images2">
     </carousel>
@@ -29,4 +29,9 @@
 
 </div>
 
+<hr/>
+<div class="flex-container2">
+  <div class="contact">Contact Sayed Farhat on Mobile: +91 75062 50012 Email: SayedFarhat@gmail.com</div>
+  <div class="contact">Address: Popular Glass Factory, Wada, Bhiwandi, District Thane</div>
+</div>
 <router-outlet></router-outlet>
